@@ -340,8 +340,10 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static")
 MEDIA_ROOT = os.path.join(BASE_DIR, "data")
 
 # disabled for whitenoise
-STATIC_URL = "/static/"
-MEDIA_URL = "/data/"
+STATIC_URL = "/cms-spackmon/static/"
+MEDIA_URL = "/cms-spackmon/data/"
+
+USE_X_FORWARDED_HOST = True
 
 # Caches
 

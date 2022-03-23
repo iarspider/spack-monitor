@@ -33,11 +33,11 @@ DOMAIN_PORT: 5000
 
 # Set to non Null to disable authentication (not recommended)
 # To change autheticated views, edit settings.py
-DISABLE_AUTHENTICATION: null
+DISABLE_AUTHENTICATION: true
 
 # Enable authentication with GitHub (requires environment export of
 # SOCIAL_AUTH_GITHUB_KEY and SOCIAL_AUTH_GITHUB_SECRET
-ENABLE_GITHUB_AUTH: true
+ENABLE_GITHUB_AUTH: null
 
 # Caching
 # Will default to local "cache" folder in repository root
