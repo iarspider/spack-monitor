@@ -33,7 +33,7 @@ DOMAIN_PORT: 5000
 
 # Set to non Null to disable authentication (not recommended)
 # To change autheticated views, edit settings.py
-DISABLE_AUTHENTICATION: true
+DISABLE_AUTHENTICATION: null 
 
 # Enable authentication with GitHub (requires environment export of
 # SOCIAL_AUTH_GITHUB_KEY and SOCIAL_AUTH_GITHUB_SECRET
@@ -55,5 +55,5 @@ URL_API_PREFIX: ms1
 API_TOKEN_EXPIRES_SECONDS: 6000
 
 # If you change the authentication server, set to non null
-AUTH_SERVER: null
+AUTH_SERVER: http://cms-spackmon.cern.ch/cms-spackmon/auth/token
 AUTH_INSTRUCTIONS: https://spack-monitor.readthedocs.io/en/latest/getting_started/auth.html
